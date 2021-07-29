@@ -88,6 +88,7 @@ ul li a{
  }
 .row{
     display: flex;
+    margin-top: 15px;
     flex-wrap: wrap;
         
     }
@@ -96,5 +97,6 @@ ul li a{
 button{
     border: none;
     background-color: aliceblue;
+    
 
 }

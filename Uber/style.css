@@ -21,7 +21,7 @@ li, a{
    color: inherit;
 } 
 .logo{
-    display: inline-block;
+   display: inline-block;
    cursor: pointer;
    padding: 1.5rem;
    text-decoration: none;

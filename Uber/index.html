@@ -10,40 +10,61 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav>
-                <ul class="nav-links float-start">
-                    <a class="logo nav-item" href="#">Uber</a>
-                    <li class="nav-item"><a href="#">Company</a></li>
-                    <li class="nav-item"><a href="#">Saftey</a></li>
-                    <li class="nav-item"><a href="#">Help</a></li>
-                    <li class="nav-item"><a href="#">COVID-19 resources</a></li>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-md">
+              <a class="navbar-brand" href="#">Uber</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Company
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">About us</a></li>
+                      <li><a class="dropdown-item" href="#">How Uber works</a></li>
+                      <li><a class="dropdown-item" href="#">Blog</a></li>
+                    </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Safety</a>
+                  </li>
+                  <li class="nav-ite">
+                    <a class="nav-link" aria-current="page" href="#">Help</a>
+                  </li>
                 </ul>
-                <ul class="nav-links float-end">
-                    <li class="nav-item"><a href="#">Products<a></li>
-                    <li class="nav-item"><a href="#">En</a></li>
-                    <li class="nav-item"><a href="#">Log in</a></li>
-                    <a  class=" nav-item btn  bg-light rounded-pill" href="#" role="button">Sign up</a>
-                </ul>
-                <div class="clearfix"></div>
-            </nav>
-        </div>
+                <div d-grid gap-2 d-md-flex justify-content-md-end>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 "> 
+                    <li class="nav-item ">
+                        <a class="nav-link " aria-current="page" href="#">En</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" aria-current="page" href="#">Log in</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link btn bg-light text-dark rounded-pill" aria-current="page" href="#">Sign up</a>
+                    </li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
-        <div class="container-md">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
                             <h1 class="display-6"><strong>Get in the driver’s seat and get paid</strong></h1>
                             <p class="lead">Drive on the platform with the largest network of active riders.</p>
-                            <p><a class="btn btn-primary btn-lg" href="#" role="button">Sign up to Drive</a></p>
-                            <a href="#">Learn more about driving and delivering</a>
+                            <p><a class="btn btn-dark btn-lg" href="#" role="button">Sign up to Drive</a></p>
+                            <a style="color: inherit; text-decoration: none;" href="#" >Learn more about driving and delivering</a>
                             <br>
                             <br>
                             <br>
                             <img src="image.jpg" alt="images" role="banner" class="img-cover">
-
                         </div>   
                     </div>
                 </div>
@@ -131,5 +152,6 @@
             </div>   
         </footer>  
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </body>
 </html>

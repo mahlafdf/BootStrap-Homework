@@ -2,25 +2,29 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-
 }
+/*header part*/
 
 header{
-   display: flex;
-   align-items: center;
-   padding: 0 64px;
-   height: 50%;
+   padding: 0 0px;
    background-color: black;
    color: #fcfcfc;
 }
-li, a{
+.nav-links{
+    height: 30px !important ;
+    align-items: center;
+    padding-bottom: 15px ;
+
+}
+li , a{
    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-weight: 500;
-   font-size: 16px;
+   font-size: 16px; 
    text-decoration: none;
    list-style-type: none;
    color: inherit;
 } 
+
 .logo{
    display: inline-block;
    cursor: pointer;
@@ -29,15 +33,12 @@ li, a{
    color: inherit !important;
    
 }
+
 .nav-links li{
     display: inline-block;
     padding: 0 20px;
 }
 
-.nav-links li a {
-   transition: all 0.3s ease 0s;
-   
-}
 
 .nav-links li a:hover{
    border-radius: 30px;
@@ -46,19 +47,12 @@ li, a{
 
    
 }
-.center-space{
-    margin: 0 auto;
-}
 
-
-button:hover{
-    background-color: rgb(226, 223, 223);
-    border-radius: 30px;
-}
 .flex-container {
     display: flex;
     flex-direction: row;
 }
+
 footer{
     background-color: black;
     height: 500px;
@@ -70,6 +64,8 @@ ul li a{
     list-style-type: none;
     text-decoration: none;
     color: inherit;
+    
+
 
 }
 .row li a:hover{

@@ -18,6 +18,9 @@ li,a{
    list-style-type: none;
    color: inherit;
 } 
+.nav-item{
+    padding: 0 15px 0 15px !important;
+}
 
 .flex-container {
     display: flex;
@@ -59,10 +62,6 @@ ul li a{
 @media (max-width:480px) {
     .flex-container{
         flex-direction: column;
-   }
-
-
-   
+   }  
 }
-
 

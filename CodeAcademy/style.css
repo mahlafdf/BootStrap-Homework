@@ -1,0 +1,22 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: aqua;
+    height: 60%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+   
+.logo {
+    width: 12%;
+    height: 6%;
+    margin: 0;
+
+}
+ul{
+    display: inline-flex;
+
+}

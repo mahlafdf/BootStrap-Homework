@@ -63,5 +63,8 @@ ul li a{
     .flex-container{
         flex-direction: column;
    }  
+   svg{
+       display: none;
+   }
 }
 
